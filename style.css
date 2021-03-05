@@ -1,5 +1,5 @@
 .container {
-  width: 100%;
+  max-width: 1000px;
   margin: auto;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: medium;
@@ -31,8 +31,17 @@ h1 {
 .left {
   width: 150px;
 }
+.contact, .skills {
+  padding-left: 0;
+}
+.contact li, .skills li{
+  list-style-type: none;
+}
 .photo {
   width: 150px;
+}
+figure{
+  margin-right: 0;
 }
 .address {
   margin: 10px;
